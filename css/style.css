@@ -1,0 +1,195 @@
+/*  font-family: 'Playfair Display', serif; 
+    font-family: 'Ubuntu', sans-serif;
+*/
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Playfair Display', serif;
+    color: #626262;
+}
+/* Header Start */
+header{
+    margin: 35px 0px;
+}
+.wrapper{
+    width: 90%;
+    margin:0 auto;
+    overflow: hidden;
+}
+.logo{
+    width: 11%;
+    float: left;
+}
+.logo img{
+    width: 100%;
+}
+.menu{
+    width: 70%;
+    float: right;
+}
+.menu ul{
+    float: right;
+}
+.menu ul li{
+    list-style: none;
+    float: left;
+}
+.menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 9px 70px;
+    display: block;
+    transition: .5s;
+}
+.menu ul li:last-child a{
+    padding-right: 0;
+}
+.menu ul li a:hover{
+    color: #000000;
+}
+/* Header End */
+/* Banner Start */
+.banner_content img{
+    width: 100%;
+}
+/* Banner End */
+
+/* gateway start */
+.gateway {}
+.wrapper2 {
+    width: 80%;
+    margin: 0px auto;
+}
+.gateway_content {
+    margin: 100px 0px;
+}
+.tag_p {
+    color: #b4ad9e;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.common_h1 {
+    font-size: 30px;
+    font-weight: 400;
+    padding-top: 25px;
+    padding-bottom: 30px;
+}
+.text_p {
+    line-height: 27px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    padding-bottom: 50px;
+}
+.comment_p {}
+/* gateway end */
+
+/* blog start */
+.blog{}
+.blog_content{
+    overflow: hidden;
+}
+.single{
+    margin: 60px 0px; 
+    width: 47%;
+    float: left;
+}
+.single img{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.single:nth-child(even){
+    float: right;
+}
+/* blog end */
+/* newsletter start */
+.newsletter{
+    background-color: #f0f0f0;
+    padding: 100px 0px;
+    text-align: center;
+}
+.signup{
+}
+.for_form{
+    width: 360px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 30px;
+}
+.for_form input{
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid black;
+    width: 300px;
+    padding: 10px 50px 10px 0px;
+    font-size: 14px;
+    outline: none;
+}
+.for_form button{
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    bottom: 10px;
+    right: 5px;
+}
+/* newsletter end */
+/* blog2 start */
+.blog2{
+    margin-top: 70px;
+}
+.button2{
+    text-align: center;
+    margin: 50px 0px;
+}
+.button2 button{
+    background-color: transparent;
+    padding: 30px 50px;
+    border: 2px solid black;
+    border-color: #626262;
+    font-size: 20px;
+}
+/* blog2 end */
+
+footer{
+    background-color: #f0f0f0;
+    margin-top: 100px;
+}
+.footer_content{
+    overflow: hidden;
+    padding: 40px 0px;
+}
+.f_menu{
+    width: 20%;
+    float: left;
+}
+.f_menu ul{}
+.f_menu li{
+    list-style: none;
+    float: left;
+}
+.f_menu ul li a{
+    text-decoration: none;
+    color: #000000;
+    padding-right: 30px;
+
+}
+.f_menu2{
+    width: 40%;
+    float: right;
+}
+.f_menu2 ul{
+    float: right;
+}
+.f_menu2 ul li{
+    list-style: none;
+    float: left;
+}
+.f_menu2 ul li a{
+    text-decoration: none;
+    color: #000000;
+    padding-right: 30px;
+}
+
+
